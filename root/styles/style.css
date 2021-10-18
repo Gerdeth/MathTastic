@@ -84,3 +84,33 @@ body{
      color:red;
      background-color: white;
  }
+ #option2{
+    background-color: rgb(0, 217, 255);
+    transition:1s;
+
+}
+
+#option2:hover{
+    color:rgb(0, 217, 255);
+    background-color: white;
+}
+#option3{
+    background-color: rgb(0, 255, 13);
+    transition:1s;
+
+}
+
+#option3:hover{
+    color:rgb(0, 225, 13);
+    background-color: white;
+}
+#option4{
+    background-color: rgb(225, 0, 76);
+    transition:1s;
+
+}
+
+#option4:hover{
+    color:rgb(255, 0, 76);
+    background-color: white;
+}
