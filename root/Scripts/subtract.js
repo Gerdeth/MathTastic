@@ -7,16 +7,17 @@ let answer=0;
 
 
 function generate_equation(){
-    let num1=Math.floor(Math.random()*21);
-    let num2= Math.floor(Math.random()*21);
+    let num2=Math.floor(Math.random()*21);
+    let num1= Math.floor(num2 + Math.random()*(21-num2));
     let dummyAnswer1=Math.floor(Math.random()*21);
     let dummyAnswer2=Math.floor(Math.random()*21);
     let dummyAnswer3=Math.floor(Math.random()*21);
     let allAnswer=[];
     let switchAnswers=[]
+    
 
-    if (num1 > num2){answer = num1-num2}
-    else{ answer= num2-num1};
+    answer=num1-num2
+
     document.getElementById("num1").innerHTML= num1;
     document.getElementById("num2").innerHTML= num2;
 
